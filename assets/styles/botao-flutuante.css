@@ -1,0 +1,49 @@
+
+
+.botao__flutuante{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+.botao__flutuante {
+    position: fixed;
+    bottom: 70px;
+    right: 16px;
+}
+
+.botao__flutuante-cadastro, .button__casa, .button__video {
+    width: 56px;
+    height: 56px;
+
+    border-radius: 50%;
+    border: 1px solid var(--azul);
+    background-color: var(--azul);
+    z-index: 5;
+}
+
+.label__casa, .label__video {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--cor-da-fonte);
+    border-radius: 16px;
+    padding: 8px;
+    background-color: white;
+    margin-right: 16px;
+}
+
+.img__mais {
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}
+
+@media (min-width: 1280px) {
+
+    .botao__flutuante {
+        display: none;
+    }
+    
+}

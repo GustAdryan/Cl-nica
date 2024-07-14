@@ -1,0 +1,33 @@
+
+:root {
+
+    --cor-da-fonte: #464646;
+    --cor-fonte-secundaria: #A3A3A3;
+    --amarelo: #FFB050;
+    --azul: #4894FF;
+    --fundo--botao: 1px solid #ECECEC;
+
+    --fonte: 'Montserrat';
+
+}
+
+body {
+    font-family: var(--fonte);
+    background-color: rgb(226, 236, 247);
+}
+
+main {
+    padding-bottom: 15%;
+}
+
+@media (min-width: 720px) {
+    main {
+        padding-bottom: 10%;
+    }
+}
+
+@media (min-width: 1280px) {
+    main {
+        padding-bottom: 0%;
+    }
+}

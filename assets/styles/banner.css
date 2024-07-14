@@ -1,0 +1,76 @@
+
+.banner__barraStatus {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 16px;
+    background-color: #fff;
+}
+
+#iconesDeStatus img {
+    margin-left: 1rem;
+}
+
+.banner__doutora {
+    min-width: 200px;
+    max-width: 230px;
+    display: flex;
+    flex-direction: row;
+    padding: 32px 121px 22px 16px;
+    column-gap: 1rem;
+}
+
+.img__doutora {
+    width: 57px;
+    border-radius: 100%;
+}
+
+.banner__doutora div h1 {
+    margin-top: 10px;
+    margin-bottom: 0.35rem;
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--cor-da-fonte);
+}
+
+.banner__doutora div p {
+    font-size: 14px;
+    color: var(--cor-fonte-secundaria);
+    font-weight: 400;
+}
+
+@media (min-width: 720px) {
+
+    .banner__barraStatus {
+        display: none;
+    }
+
+    .img__doutora {
+        width: 64px;
+    }
+
+}
+
+@media (min-width: 1280px) {
+
+    .img__doutora {
+        width: 96px;
+    }
+
+    .banner__doutora {
+        min-width: 305px;
+        max-width: 400px;
+        display: flex;
+        flex-direction: row;
+        padding: 1rem 2rem;
+        column-gap: 2.75rem;
+    }
+
+    .banner__doutora div h1 {
+        font-size: 32px;
+    }
+
+    .banner__doutora div p {
+        font-size: 18px;
+    }
+
+}

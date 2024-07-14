@@ -1,0 +1,101 @@
+form {
+    display: none;
+}
+
+@media (min-width: 1280px) {
+
+    form {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .labels {
+        background-color: white;
+        width: max-content;
+        max-width: 50%;
+        height: max-content;
+        margin: 4.5rem 2rem;
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 32px;
+        row-gap: 1rem;
+    }
+
+    .labels div {
+        display: flex;
+        justify-content: space-evenly;
+        row-gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .formulario__titulo {
+        font-size: 32px;
+        font-weight: 700;
+        color: var(--azul);
+    }
+
+    .formulario__text {
+        font-size: 18px;
+        font-weight: 400;
+        color: var(--cor-da-fonte);
+        margin-bottom: 2rem;
+    }
+
+    input, select {
+        width: 12rem;
+        height: 3.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--fundo--botao);
+        border-radius: 16px;
+        border: 2px solid #1f52fba5;
+    }
+
+    label {
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--cor-da-fonte);
+    }
+
+    #nome::placeholder{
+        padding: 1rem;
+        font-size: 16px;
+        font-weight: 400;
+        color: var(--cor-fonte-secundaria);
+    }
+
+    #tipo__consulta {
+        padding: 16px;
+        font-size: 12px;
+        font-weight: 400;
+        color: var(--cor-fonte-secundaria);
+    }
+
+    #observacoes::placeholder {
+        font-size: 16px;
+        font-weight: 400;
+        color: var(--cor-fonte-secundaria);
+    }
+
+    .button__agendar {
+        background-color: var(--azul);
+        border: 2px solid var(--azul);
+        width: max-content;
+        border-radius: 8px;
+        padding: 16px;
+        text-align: center;
+        color: var(--fundo--botao);
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .button__agendar:hover {
+        background-color: #4062C9;
+        
+    }
+
+}
